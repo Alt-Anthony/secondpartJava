@@ -16,5 +16,11 @@ public class TestReferencia {
 		
 		segundaCuenta.saldo += 400;
 		System.out.println("Saldo primera Cuenta"+ primeraCuenta.saldo);
+		
+		System.out.println(primeraCuenta);
+		System.out.println(segundaCuenta);
+		if(primeraCuenta == segundaCuenta) {
+			System.out.println("Son el mismo objeto");
+		}
 	}
 }
