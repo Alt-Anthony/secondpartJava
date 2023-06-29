@@ -6,5 +6,6 @@ public class PruebaCarro {
 		Carro carro = new Carro(2013, "Gol", 35000.0);
 		
 		Carro carro2 = new Carro("Uno", 2000.0);
+		Carro carro3 = new Carro("dps",2222);
 	}
 }
