@@ -7,5 +7,10 @@ public class PruebaCarro {
 		
 		Carro carro2 = new Carro("Uno", 2000.0);
 		Carro carro3 = new Carro("dps",2222);
+		
+		
+		System.out.println(carro.getAno());
+		System.out.println(carro2.getAno());
+		System.out.println(carro3.getAno());
 	}
 }

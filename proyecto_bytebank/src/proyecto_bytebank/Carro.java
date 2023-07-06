@@ -15,6 +15,9 @@ public class Carro{
         this.modelo = modelo;
         this.precio = precio;
     }
+    public int getAno() {
+    	return ano;
+    }
 
     //getters e setters omitidos        
 
