@@ -34,10 +34,7 @@ public class Funcionario {
 		this.tipo = tipo;
 	}
 	public double getBonificacion() {
-		if (tipo==1) {
-			return this.salario;
-		}
-		return this.salario*10/100;
+		return this.salario*5/100;
 	}
 	
 }
