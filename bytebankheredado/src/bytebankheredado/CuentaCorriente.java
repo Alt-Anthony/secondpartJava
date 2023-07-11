@@ -1,22 +1,31 @@
 package bytebankheredado;
 
-public class CuentaCorriente extends Cuenta {
+public class CuentaCorriente implements Tributacion {
 
-	public CuentaCorriente(int agencia, int numero) {
-		super(agencia, numero);
-	}
-	
-	@Override
-	public boolean retirar(double saldo) {
-		double comision = 0.2;
-		return super.retirar(saldo + comision);
+    public CuentaCorriente(int i, int j) {
+		// TODO Auto-generated constructor stub
 	}
 
 	@Override
-	public void depositar(double valor) {
-		super.saldo += valor;
+    public double getValorImpuesto() {
+        return 2 *0.01;
+    }
+
+	public void depositar(int i) {
+		// TODO Auto-generated method stub
 		
 	}
+
+	public void transferir(int i, CuentaAhorros ca) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public char[] getSaldo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+		
 	
 	
 }
