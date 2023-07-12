@@ -1,6 +1,6 @@
 package java_pila_ejecucion;
 
-public class Flujo {
+public class FlujoConTratamiento {
 
 	public static void main(String[] args) {
 		System.out.println("Inicio  main");
@@ -16,8 +16,9 @@ public class Flujo {
 
 	private static void metodo2() {
 		System.out.println("Incio metodo2");
-		Cuenta cuenta = new Cuenta();
-		throw new ArithmeticException();
+		ArithmeticException exception = new ArithmeticException("surgio un error");
+		throw exception;
 
 	}
+
 }
