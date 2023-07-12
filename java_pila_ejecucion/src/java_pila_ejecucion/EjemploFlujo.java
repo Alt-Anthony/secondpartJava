@@ -1,5 +1,5 @@
 package java_pila_ejecucion;
 
-public class test {
+public class EjemploFlujo {
 
 }
