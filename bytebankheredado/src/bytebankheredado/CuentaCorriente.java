@@ -16,7 +16,7 @@ public class CuentaCorriente extends Cuenta {
 
 	}
 
-	public void retirar(double saldo) {
+	public void retirar(double saldo) throws SaldoInsuficienteExcepcion {
 		double comision = 0.2;
 		super.retirar(saldo + comision);
 	}
