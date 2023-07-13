@@ -1,6 +1,7 @@
 package bytebankheredado;
 
 public abstract class Cuenta {
+
 	protected double saldo;
 	private int agencia = 1;
 	private int numero;
@@ -11,10 +12,11 @@ public abstract class Cuenta {
 	public static int getTotal() {
 		return Cuenta.total;
 	}
-	
+
 	public Cuenta() {
-		
+
 	}
+
 	public Cuenta(int agencia, int numero) {
 		if (agencia <= 0) {
 			System.out.println("No se permite 0");
@@ -28,12 +30,13 @@ public abstract class Cuenta {
 
 	public abstract void depositar(double valor);
 
-	public boolean retirar(double saldo) {
-		if (this.saldo >= saldo) {
-			this.saldo -= saldo;
-			return true;
+	public void retirar(double saldo) {
+		if (this.saldo < saldo) {
+			throw new SaldoInsuficienteExcepcion("No tienes saldo");
 		}
-		return false;
+		this.saldo -= saldo;
+		System.out.println("Retiraste " + saldo + " soles de tu cuenta, el total ahora es " + this.saldo);
+
 	}
 
 	public boolean transferir(double valor, Cuenta cuentaaTransferir) {
