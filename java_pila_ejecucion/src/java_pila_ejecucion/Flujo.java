@@ -10,14 +10,19 @@ public class Flujo {
 
 	private static void metodo1() {
 		System.out.println("Inicio metodo1");
-		metodo2();
+		try {
+			metodo2();
+		} catch (MiException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		System.out.println("Fin metodo1");
 	}
 
-	private static void metodo2() {
+	private static void metodo2() throws MiException {
 		System.out.println("Incio metodo2");
-		Cuenta cuenta = new Cuenta();
-		throw new ArithmeticException();
+		throw new MiException("Mi excepcion fue lanzada");
 
 	}
 }
+	
