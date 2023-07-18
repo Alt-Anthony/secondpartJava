@@ -1,5 +1,8 @@
 package bytebankheredado;
 
+import bytebankheredado.modelo.Contador;
+import bytebankheredado.modelo.Funcionario;
+
 public class TestFuncionario {
 
 	public static void main(String[] args) {

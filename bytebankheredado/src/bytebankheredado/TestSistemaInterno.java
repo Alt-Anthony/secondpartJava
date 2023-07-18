@@ -1,5 +1,9 @@
 package bytebankheredado;
 
+import bytebankheredado.modelo.Administrador;
+import bytebankheredado.modelo.Gerente;
+import bytebankheredado.modelo.SistemaInterno;
+
 public class TestSistemaInterno {
 
 	public static void main(String[] args) {

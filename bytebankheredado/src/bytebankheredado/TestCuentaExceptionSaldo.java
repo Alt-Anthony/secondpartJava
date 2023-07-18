@@ -1,5 +1,9 @@
 package bytebankheredado;
 
+import bytebankheredado.modelo.Cuenta;
+import bytebankheredado.modelo.CuentaAhorros;
+import bytebankheredado.modelo.SaldoInsuficienteExcepcion;
+
 public class TestCuentaExceptionSaldo {
 
 	public static void main(String[] args) {

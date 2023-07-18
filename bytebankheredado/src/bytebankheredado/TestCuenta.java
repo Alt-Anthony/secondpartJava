@@ -1,5 +1,8 @@
 package bytebankheredado;
 
+import bytebankheredado.modelo.CuentaAhorros;
+import bytebankheredado.modelo.CuentaCorriente;
+
 public class TestCuenta {
 	public static void main(String[] args) {
 

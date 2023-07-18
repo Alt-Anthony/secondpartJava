@@ -1,5 +1,8 @@
 package bytebankheredado;
 
+import bytebankheredado.modelo.Funcionario;
+import bytebankheredado.modelo.Gerente;
+
 public abstract class TestReferencias {
 	public static void main(String[] args) {
 		

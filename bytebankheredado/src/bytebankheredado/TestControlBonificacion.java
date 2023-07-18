@@ -1,5 +1,10 @@
 package bytebankheredado;
 
+import bytebankheredado.modelo.Contador;
+import bytebankheredado.modelo.ControlBonificacion;
+import bytebankheredado.modelo.Funcionario;
+import bytebankheredado.modelo.Gerente;
+
 public class TestControlBonificacion {
 
 	public static void main(String[] args) {

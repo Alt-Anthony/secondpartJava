@@ -1,4 +1,4 @@
-package bytebankheredado;
+package bytebankheredado.modelo;
 
 public abstract class Funcionario {
 
