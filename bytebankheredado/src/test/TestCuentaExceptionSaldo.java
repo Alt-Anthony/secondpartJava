@@ -1,4 +1,4 @@
-package bytebankheredado;
+package test;
 
 import bytebankheredado.modelo.Cuenta;
 import bytebankheredado.modelo.CuentaAhorros;

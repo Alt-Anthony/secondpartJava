@@ -1,4 +1,4 @@
-package bytebankheredado;
+package test;
 
 import bytebankheredado.modelo.Funcionario;
 import bytebankheredado.modelo.Gerente;
